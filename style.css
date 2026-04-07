@@ -1,0 +1,37 @@
+body {
+  background-color: #2CC1DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#box {
+  box-sizing: border-box;
+  width: 50vw;
+  background-color: #2CDBBC;
+  box-shadow: 0 0 10px 0 #000a;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+#counter-label {
+  font-size: 6rem;
+  color: #ddd;
+  line-height: 1;
+}
+
+#buttons-box {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 0.8rem;
+  background-color: #2C8ADB;
+  border: 1px solid #74CBDB;
+  border-radius:5px;
+  color: #ddd;
+}
