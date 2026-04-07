@@ -18,20 +18,37 @@ body {
   text-align: center;
 }
 
+/*Number label*/
 #counter-label {
   font-size: 6rem;
   color: #ddd;
   line-height: 1;
 }
 
+/*BUTTONS*/
 #buttons-box {
   margin-bottom: 10px;
+
+  display: flex; /*Flexbox*/
+  gap: 4px; /*Espacio entre elementos*/
 }
 
 button {
+  flex: 1; /*Ocupar el mismo espacio*/
+
+  padding: 4px 6px;
+  width: 100;
   font-size: 0.8rem;
-  background-color: #2C8ADB;
-  border: 1px solid #74CBDB;
+  background-color: #3DECCD;
+  border: none;
   border-radius:5px;
   color: #ddd;
+}
+
+button:hover{
+  background-color: #3FFCCD;
+}
+
+button:active{
+  background-color: #1BCAAB;
 }
